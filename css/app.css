@@ -1,0 +1,93 @@
+/*
+* CSS
+Color 1: #443266;
+Color 2: #C3C3E5;
+Color 3: #F1F0FF;
+Color 4: #8C489F;
+*/
+body {
+    color: #8C489F;
+    background-image: url("../imgs/bg-min.jpg");
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #8C489F;
+    width: 100%;
+    height: 90px;
+    padding-left: 20px;
+    color: #C3C3E5;
+    border-bottom-style: solid;
+    border-bottom-color: #F1F0FF;
+    border-bottom-width: 2px;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    padding-top: 5px;
+}
+
+nav {
+    background-color: #443266;
+    border-bottom-style: solid;
+    border-bottom-color: #F1F0FF;
+    border-bottom-width: 2px;
+    position: fixed;
+    width:100%;
+    top: 90px;
+}
+
+nav ul {
+    margin-bottom: 0rem; /* Quitar margin que trae foundation */
+    margin-left: 0.25rem;
+    padding-left: 0.9375rem;
+}
+
+.lihover {
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #F1F0FF;
+}
+
+nav ul li a {
+    color: #C3C3E5 !important;
+    width: 100px;
+    height: 50px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+section {
+    margin-top: 140px;
+}
+
+.boxcontent {
+    border-radius: 10px;
+    background-color: #F1F0FF;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boxcontent h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.boxcontent img {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.boxredes {
+    border-radius: 10px;
+    background-color: #F1F0FF;
+    padding: 10px;
+    text-align: center;
+}
