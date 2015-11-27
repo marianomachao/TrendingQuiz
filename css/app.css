@@ -46,6 +46,7 @@ nav {
     border-left-style: solid;
     border-left-color: #F1F0FF;
 }
+
 nav ul {
     margin-bottom: 0rem; /* Quitar margin que trae foundation */
     margin-left: 0.25rem;
@@ -58,7 +59,7 @@ nav ul li {
     border-right-width: 2px;
     border-right-style: solid;
     border-right-color: #F1F0FF;
-    margin:0 0 0 -5px;
+    margin: 0 0 0 -5px;
 }
 
 nav ul li a {
@@ -70,7 +71,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:#443266;
+    color: #443266;
 }
 
 nav ul li a:active {
@@ -79,8 +80,9 @@ nav ul li a:active {
 
 nav ul li:hover {
     background-color: white;
-   /* opacity: 0.90; */
+    /* opacity: 0.90; */
     font-weight: bold;
+
 }
 
 section {
