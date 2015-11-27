@@ -1,0 +1,9 @@
+.idea/.name
+.idea/deployment.xml
+.idea/misc.xml
+.idea/modules.xml
+*.xml
+.idea/quizmaker.iml
+Originals/logo.png
+Originals/share.png
+photothumb.db
