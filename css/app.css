@@ -34,8 +34,10 @@ nav {
     border-bottom-color: #F1F0FF;
     border-bottom-width: 2px;
     position: fixed;
-    width:100%;
+    width: 100%;
     top: 90px;
+    opacity: 0.92;
+    filter: alpha(opacity=92);
 }
 
 nav ul {
