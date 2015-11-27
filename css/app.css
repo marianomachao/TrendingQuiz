@@ -59,11 +59,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #C3C3E5 !important;
+    color: #C3C3E5;
     width: 100px;
     height: 50px;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+}
+nav ul li a:hover {
+    color: #C3C3E5; /* avoiding use of !important */
 }
 
 section {
@@ -80,8 +83,8 @@ section {
 
 .boxcontent h2 {
     font-family: 'Fjalla One', sans-serif;
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
-    0px -5px 35px rgba(255,255,255,0.3);
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
 }
 
 .boxcontent img {
