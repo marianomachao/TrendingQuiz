@@ -134,3 +134,6 @@ background-color: #C3C3E5;
     padding: 10px;
     text-align: center;
 }
+.ocultarcheck {
+    display:none;
+}
