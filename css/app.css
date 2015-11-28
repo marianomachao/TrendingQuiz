@@ -107,7 +107,27 @@ section {
     border-radius: 20px;
     padding: 10px;
 }
-
+.boxcontent ul {
+    list-style-type: none;
+    margin-left:-5px;
+}
+.boxcontent li {
+    height:45px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.boxcontent .boton {
+background-color: #C3C3E5;
+}
+.boxcontent .boton:hover{
+    background-color: #8C489F;
+}
+.boxcontent .boton:active{
+    background-color: #8C489F;
+}
+.boxcontent p {
+    margin-bottom:0px;
+}
 .boxredes {
     border-radius: 10px;
     background-color: #F1F0FF;
