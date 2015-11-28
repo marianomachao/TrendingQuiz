@@ -84,6 +84,12 @@ nav ul li:hover {
     font-weight: bold;
 
 }
+nav ul li:active {
+    background-color: white;
+    /* opacity: 0.90; */
+    font-weight: bold;
+
+}
 
 section {
     margin-top: 140px;
@@ -117,7 +123,7 @@ section {
     text-align: left;
 }
 .boxcontent .boton {
-background-color: #C3C3E5;
+background-color: #9494E0;
 }
 .boxcontent .boton:hover{
     background-color: #8C489F;
@@ -133,7 +139,4 @@ background-color: #C3C3E5;
     background-color: #F1F0FF;
     padding: 10px;
     text-align: center;
-}
-.ocultarcheck {
-    display:none;
 }
