@@ -1363,10 +1363,8 @@ kbd {
       background: #147cc0;
       color: #fff; }
   .button.secondary {
-    background: #777;
     color: #fff; }
     .button.secondary:hover, .button.secondary:focus {
-      background: #5f5f5f;
       color: #fff; }
   .button.success {
     background: #3adb76;
