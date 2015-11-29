@@ -9,6 +9,7 @@ body {
     color: #8C489F;
     background-image: url("../imgs/bg-min.jpg");
     font-family: 'Montserrat', sans-serif;
+
 }
 
 header {
@@ -35,8 +36,7 @@ nav {
     border-bottom-width: 2px;
     position: fixed;
     width: 100%;
-    height: 27px;
-    top: 90px;
+    top: 91px;
     opacity: 0.92;
     filter: alpha(opacity=92);
 }
@@ -119,11 +119,16 @@ section {
 }
 .boxcontent li {
     height:45px;
-    letter-spacing: 1px;
     text-align: left;
+}
+.boxcontent ul li a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .boxcontent .boton {
 background-color: #9494E0;
+    border-radius: 4px;
 }
 .boxcontent .boton:hover{
     background-color: #8C489F;
