@@ -9,6 +9,7 @@ body {
     color: #8C489F;
     background-image: url("../imgs/bg-min.jpg");
     font-family: 'Montserrat', sans-serif;
+    height: auto;
 
 }
 
@@ -40,7 +41,6 @@ nav {
     opacity: 0.92;
     filter: alpha(opacity=92);
 }
-
 .primerli {
     border-left-width: 2px;
     border-left-style: solid;
