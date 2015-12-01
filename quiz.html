@@ -35,111 +35,47 @@
 </nav>
 <section>
     <article>
-        <div class="row">
+        <div class="row" id="container">
             <!-- Box completo -->
             <div class="small-12 columns boxcontent">
                 <!-- Pantallas verticales -->
 
                     <div class="small-12 show-for-portrait columns">
-                        <h2>¿Qué personaje de The Walking Dead eres? </h2>
+                        <h2 id="quiz-title-v"></h2>
 
                 <p>
                     <img src="https://movement-prod.imgix.net/uploads/42/6f5d8a015917c72eb8baf9e78eff74/Sin_t_tulo_1.jpg?fit=min&h=324&w=576">
                 </p>
             </div>
             <!-- Celulares -->
-            <div class="small-12 show-for-portrait columns">
-                <p>Pregunta Nº 1 de 5</p>
+            <div class="small-12 show-for-portrait columns" id="question-container-v">
+                <p>Pregunta Nº <span id="current-question-v">1</span> de <span id="total-questions-v">5</span></p>
 
-                <h3>Ante una situacion de peligro...</h3>
+                <h3 id="question-title-v"></h3>
 
                 <h4>Respuestas:</h4> <br>
-                <ul>
-                    <li><a class="button expanded boton" href="quiz2.html">Busco un sitio seguro y luego
-                        veremos</a></li>
-                    <li><a class="button expanded boton" href="quiz2.html">Guardo la calma y pienso antes de
-                        actuar</a>
-                    </li>
-                    <li><a class="button expanded boton" href="quiz2.html">Lo primero es proteger a los
-                        mios</a></li>
-                    <li><a class="button expanded boton" href="quiz2.html">Pierdo los nervios</a></li>
-                    <li><a class="button expanded boton" href="quiz2.html">¿Quien dijo miedo? Me vengo arriba
-                        y demuestro
-                        que soy un valiente</a></li>
-                    <li><a class="button expanded boton" href="quiz2.html">Llamo al 112</a></li>
-                </ul>
+                <div id="options-container-v"></div>
             </div>
 
             <!-- Pantallas horizontales -->
             <div class="small-5 show-for-landscape columns">
-                <h2>¿Qué personaje de The Walking Dead eres? </h2>
+                <h2 id="quiz-title-h"></h2>
 
                 <p>
                     <img src="https://movement-prod.imgix.net/uploads/42/6f5d8a015917c72eb8baf9e78eff74/Sin_t_tulo_1.jpg?fit=min&h=324&w=576">
                 </p>
             </div>
 
-            <div class="small-7 show-for-landscape columns text-question" data-question="0">
-                <p>Pregunta Nº 1 de 5</p>
+            <div class="small-7 show-for-landscape columns text-question" data-question="0" id="question-container-h">
+                <p>Pregunta Nº <span id="current-question-h">1</span> de <span id="total-questions-h">5</span></p>
 
-                <h3>Ante una situacion de peligro...</h3>
+                <h3 id="question-title-h"></h3>
 
                 <!--<h4>Respuestas:</h4>--> <br>
-                <ul>
-                    <li><a class="button expanded boton answer" href="#" data-answer="0">Busco un sitio seguro y luego
-                        veremos</a></li>
-                    <li><a class="button expanded boton answer" href="#" data-answer="1">Guardo la calma y pienso antes de
-                        actuar</a>
-                    </li>
-                    <li><a class="button expanded boton answer" href="#" data-answer="2">Lo primero es proteger a los
-                        mios</a></li>
-                    <li><a class="button expanded boton answer" href="#" data-answer="3">Pierdo los nervios</a></li>
-                    <li><a class="button expanded boton answer" href="#" data-answer="4">¿Quien dijo miedo? Me vengo arriba
-                        y demuestro
-                        que soy un valiente</a></li>
-                    <li><a class="button expanded boton answer" href="#" data-answer="5">Llamo al 112</a></li>
-                </ul>
+                <div id="options-container-h"></div>
             </div>
 
-            <div class="hide-on-print hide-for-print small-7 show-for-landscape columns image-question" data-question="1">
-                <p>Pregunta Nº 2 de 5</p>
-
-                <h3>Elige un arma...</h3>
-
-                <!--<h4>Respuestas:</h4> --><br>
-
-                <div class="small-2 large-4 columns">
-                    <a href="#" class="answer" data-answer="0">
-                        <img src="https://movement-prod.imgix.net/uploads/f9/41b55e22fa13db6a7987b47bf46052/Sin_t_tulo_1.jpg?fit=min&h=300&w=300">
-                    </a>
-                </div>
-                <div class="small-2 large-4 columns">
-                    <a href="#" class="answer" data-answer="1">
-                        <img src="https://movement-prod.imgix.net/uploads/f9/41b55e22fa13db6a7987b47bf46052/Sin_t_tulo_1.jpg?fit=min&h=300&w=300">
-                    </a>
-                </div>
-                <div class="small-2 large-4 columns">
-                    <a href="#" class="answer" data-answer="2">   
-                        <img src="https://movement-prod.imgix.net/uploads/f9/41b55e22fa13db6a7987b47bf46052/Sin_t_tulo_1.jpg?fit=min&h=300&w=300">
-                    </a>
-                </div>
-                <div class="small-2 large-4 columns">
-                    <a href="#" class="answer" data-answer="3">
-                        <img src="https://movement-prod.imgix.net/uploads/f9/41b55e22fa13db6a7987b47bf46052/Sin_t_tulo_1.jpg?fit=min&h=300&w=300">
-                    </a>
-                </div>
-                <div class="small-2 large-4 columns" >
-                    <a href="#" class="answer" data-answer="4">
-                        <img src="https://movement-prod.imgix.net/uploads/f9/41b55e22fa13db6a7987b47bf46052/Sin_t_tulo_1.jpg?fit=min&h=300&w=300">
-                    </a>
-                </div>
-                <div class="small-2 large-4 columns">
-                    <a href="#" class="answer" data-answer="5">
-                        <img src="https://movement-prod.imgix.net/uploads/f9/41b55e22fa13db6a7987b47bf46052/Sin_t_tulo_1.jpg?fit=min&h=300&w=300">
-                    </a>
-                </div>
-                
-            </div>
+            
             <!-- Box completo -->
         </div>
         </div>
